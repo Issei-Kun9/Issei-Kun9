@@ -1,4 +1,4 @@
-<img src="./banner.svg" alt="terminal boot — Yashwardhan, AI automation engineer" width="100%" />
+<img src="./banner.png" alt="terminal — Yashwardhan, AI automation engineer" width="100%" />
 
 ```bash
 $ ls ./skills
