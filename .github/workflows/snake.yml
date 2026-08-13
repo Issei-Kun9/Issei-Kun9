@@ -1,0 +1,29 @@
+name: generate-snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: write
+
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake.svg?palette=github-light&color_snake=000000&color_dots=#f6f8fa,#eaeef2,#d0d7de,#afb8c1,#8c959f
+            dist/snake-dark.svg?palette=github-dark&color_snake=ffffff&color_dots=#0d1117,#161b22,#30363d,#484f58,#6e7681
+
+      - uses: Platane/snk/action/push@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          build_repo: ${{ github.repository }}
+          build_branch: output
+          build_directory: dist
+          target_branch: output

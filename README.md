@@ -1,4 +1,4 @@
-<img src="./banner.gif" alt="whoami — Yashwardhan, AI automation engineer" width="100%" />
+<img src="./banner.svg" alt="terminal boot — Yashwardhan, AI automation engineer" width="100%" />
 
 ```bash
 $ ls ./skills
@@ -42,8 +42,23 @@ $ echo $SOCIALS
 ---
 
 ```bash
-$ watch -n 86400 ./ship.sh
+$ ./ship.sh --status
 ```
+
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="https://raw.githubusercontent.com/Issei-Kun9/Issei-Kun9/output/snake-dark.svg"
+  />
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="https://raw.githubusercontent.com/Issei-Kun9/Issei-Kun9/output/snake.svg"
+  />
+  <img
+    alt="contribution snake"
+    src="https://raw.githubusercontent.com/Issei-Kun9/Issei-Kun9/output/snake.svg"
+  />
+</picture>
 
 [![Yashwardhan's GitHub stats](https://github-readme-stats.vercel.app/api?username=Issei-Kun9&show_icons=true&theme=graywhite&hide_title=true&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
 
