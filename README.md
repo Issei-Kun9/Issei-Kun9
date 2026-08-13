@@ -1,16 +1,4 @@
-```
-┌─────────────────────────────────────────────────────────────┐
-│  $ whoami                                                   │
-├─────────────────────────────────────────────────────────────┤
-│                                                             │
-│   YASHWARDHAN                                               │
-│   AI automation engineer.                                   │
-│   Building agents that help businesses become bigger.       │
-│                                                             │
-│   [ xmelautomations.xyz ]                                   │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
+<img src="./banner.gif" alt="whoami — Yashwardhan, AI automation engineer" width="100%" />
 
 ```bash
 $ ls ./skills
